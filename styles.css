@@ -1,0 +1,116 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background: #1c1c1c; /* Very dark gray background */
+  color: #fff; /* Default font color for good contrast */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container Styling */
+.container {
+  width: 100%;
+  max-width: 400px;
+  background: #0d0d0d; /* Very dark black container */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Slight shadow for subtle separation */
+  color: #fff; /* White text inside the container */
+}
+
+/* Form Box Styling */
+.form-box h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff; /* Bright white for title */
+  text-align: center;
+}
+
+/* Input Group Styling */
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #cccccc; /* Light gray for labels */
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #555; /* Medium gray border for inputs */
+  border-radius: 5px;
+  font-size: 1rem;
+  background: #1c1c1c; /* Slightly lighter black for inputs */
+  color: #fff; /* White text in inputs */
+  outline: none;
+}
+
+.input-group input:focus {
+  border-color: #4facfe;
+  box-shadow: 0 0 5px rgba(79, 172, 254, 0.5);
+}
+
+/* Options Styling */
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.options a {
+  color: #4facfe; /* Bright blue links for contrast */
+  text-decoration: none;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}
+
+/* Button Styling */
+.btn {
+  width: 100%;
+  padding: 0.8rem;
+  background: #4facfe; /* Bright blue button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #00c3fe; /* Lighter blue on hover */
+}
+
+/* Sign-up Link Styling */
+.signup-link {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.signup-link a {
+  color: #4facfe; /* Bright blue links for contrast */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
